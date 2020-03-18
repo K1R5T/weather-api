@@ -1,0 +1,57 @@
+body{
+    background-image: url(./img/weather.jpeg);
+    background-size: cover;
+}
+
+/* .formContainer{
+    display: flex;
+    justify-content: center;
+} */
+
+.display{
+    list-style: none;
+}
+
+h1{
+    font-size: 55px;
+    color: black;
+    font-weight: 900;
+}
+
+ul{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.city{
+    font-size: 45px;
+    color: black;
+    font-weight: 900;
+}
+
+.cityInput{
+    height: 3vh;
+    width: 250px;
+    margin-right: 30px;
+    font-size: 30px;
+    background-color: lightgrey;
+    font-weight: 700;
+}
+
+.code{
+    font-size: 35px;
+    color: black;
+    font-weight: 900;
+}
+
+.codeInput{
+    height: 3vh;
+    width: 250px;
+    font-size: 30px;
+    background-color: lightgrey;
+    font-weight: 700;
+}
+
+.send{
+    font-size: 29px;
+}

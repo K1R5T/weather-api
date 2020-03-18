@@ -1,0 +1,19 @@
+<h1>Current Weather</h1>
+
+{{#if error}}
+    <h2>{{error}}</h2>
+{{else}}
+    <ul class="display">
+        {{#each data}}
+            <li>{{@key}} : {{this}}</li>
+        {{/each}}
+    </ul>
+{{/if}}
+
+<form class="formContainer" action="/" method="post">
+<label class="city" for="city">City:</label>
+<input class="cityInput" type="text" name="city" placeholder="eg: Manchester">
+<label  class="code" for="code">Country Code:</label>
+<input class="codeInput" type="text" name="code" placeholder="eg: uk">
+<input class="send" type="submit" value="send">
+</form>
